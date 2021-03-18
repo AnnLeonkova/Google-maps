@@ -1,0 +1,44 @@
+#map {
+   width: 70%;
+   height: 70%;
+ }
+
+ /* Optional: Makes the sample page fill the window. */
+ html,
+ body {
+   height: 100%;
+   margin: 0;
+   padding: 0;
+ }
+
+ .custom-map-control-button {
+   appearance: button;
+   background-color: rgb(106, 104, 189);
+   color: #FFF;
+   border: 0;
+   border-radius: 10px;
+   box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.3);
+   cursor: pointer;
+   margin: 10px;
+   padding: 0 0.5em;
+   height: 40px;
+   font: 400 18px Roboto, Arial, sans-serif;
+   overflow: hidden;
+ }
+ .custom-map-control-button:hover {
+   background: #b482ed;
+ }
+
+ .gm-style .gm-style-iw-c {
+   position: absolute;
+   box-sizing: border-box;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+   transform: translate(-50%,-100%);
+   background-color: white;
+   border-radius: 10px;
+   border: 1px solid #b482ed;
+   border-bottom: none;
+   padding: 12px;
+   box-shadow: 0 2px 7px 1px rgb(0 0 0  / 40%);
