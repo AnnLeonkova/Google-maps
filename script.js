@@ -1,24 +1,4 @@
-// function myMap() {
-//    var mapCanvas = document.getElementById("map");
-//    var myCenter = new google.maps.LatLng(51.508742, -0.120850); //координаты
-//    var mapOptions = { center: myCenter, zoom: 15 }; //зум
-//    var map = new google.maps.Map(mapCanvas, mapOptions);
-//    var marker = new google.maps.Marker({
-//       position: myCenter,
-//       animation: google.maps.Animation.BOUNCE //анимация булавки
-//    });
-//    marker.setMap(map);
-// }
 
-/* Always set the map height explicitly to define the size of the div
- * element that contains the map. */
-
-"use strict";
-
-// Note: This example requires that you consent to location sharing when
-// prompted by your browser. If you see the error "The Geolocation service
-// failed.", it means you probably did not give permission for the browser to
-// locate you.
 var map, infoWindow, marker;
 
 function initMap() {
@@ -64,16 +44,3 @@ function initMap() {
    });
 }
 
-// function handleLocationError(browserHasGeolocation, infoWindow, pos) {
-//    infoWindow.setPosition(pos);
-//    infoWindow.setContent(
-//       browserHasGeolocation ?
-//       "Error: The Geolocation service failed." :
-//       "Error: Your browser doesn't support geolocation."
-//    );
-//    infoWindow.open(map);
-
-// }
-
-
-// function myMap() {
